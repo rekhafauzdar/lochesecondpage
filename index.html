@@ -1,0 +1,1316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Loche</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/Loche-India-Logo.jpg" rel="icon">
+  <link href="assets/img/Loche-India-Logo.jpg" rel="apple-touch-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid header-width position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="assets/img/logo-1.png" alt="">
+        <!-- <h1 class="sitename">Append</h1><span>.</span> -->
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero" class="active">Home</a></li>
+          <li><a href="index.html#about">About Loche</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#gallery">Gallery</a></li>
+          <li><a href="index.html#team">Team</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <div class="header-log">
+        <a class="world"> <i class="fa-solid fa-earth-americas"></i> <span class="country-name">Language</span></a>
+        <a class="bags" data-bs-toggle="modal" data-bs-target="#cartModal"> <i class="fa-solid fa-bag-shopping"></i>
+          <span class="country-name"></span></a>
+        <a class="user" data-bs-toggle="modal" data-bs-target="#exampleModal"> <i class="fa-solid fa-user-large"></i>
+          <span class="country-name"></span></a>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- Modal cart-->
+  <div class="modal fade" id="cartModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title  fs-5" id="exampleModalLabel">Your bag is empty</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div>
+            <p class="cty-regn">Country/region: <span class="card-cty">United States</span></p>
+          </div>
+          <div class="icon-box">
+
+            <h3 class="bought-card">People also bought</h3>
+
+            <div class="filter_drop table-container">
+              <table>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div class="box-sizexyz">
+                        <div class="cart-box">
+                          <div class="offering-card">
+                            <div class="cart-img">
+                              <img src="assets/img/portfolio/product--1.jpeg" alt="" class="offering-imge">
+                            </div>
+                            <div class="card-body card-size">
+                              <h5 class="offering-heading">
+                                Glossys Serum
+                              </h5>
+                              <p class="cart-price">₹ 2099.99</p>
+                              <p class="log-btn">Add to bag</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="box-sizexyz">
+                        <div class="cart-box">
+                          <div class="offering-card">
+                            <div class="cart-img">
+                              <img src="assets/img/portfolio/product--2.jpeg" alt="" class="offering-imge">
+                            </div>
+                            <div class="card-body card-size">
+                              <h5 class="offering-heading">
+                                Glossys Toner
+                              </h5>
+                              <p class="cart-price">₹ 1200.99</p>
+                              <p class="log-btn">Add to bag</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+
+                    <td>
+                      <div class="box-sizexyz">
+                        <div class="cart-box">
+                          <div class="offering-card">
+                            <div class="cart-img">
+                              <img src="assets/img/portfolio/product--3.jpeg" alt="" class="offering-imge">
+                            </div>
+                            <div class="card-body card-size">
+                              <h5 class="offering-heading">
+                                Glossys Soothing cream
+                              </h5>
+                              <p class="cart-price">₹ 2599.99</p>
+                              <p class="log-btn">Add to bag</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal user-->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title  fs-5" id="exampleModalLabel">Locho Account</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </div>
+        <div class="modal-body">
+
+          <div class="icon-box">
+            <img src="assets/img/Loche-India-Logo.jpg" class="login-image" alt="Cinque Terre">
+            <h3 class="login-wlc">Log into Your Loche account</h3>
+            <div class="login-info">
+              <p class="">With a Loche account , you can</p>
+              <p class="login-icon"><i class="fa-solid fa-bag-shopping"></i>Manage orders and returns</p>
+              <p class="login-icon"><i class="fa-solid fa-box-open"></i>Explore recommended Products services.</p>
+              <P class="login-icon"><i class="fa-solid fa-headphones"></i>Get personalized customer support</P>
+            </div>
+            <div class="login-button">
+              <p class="log-btn signin-btn">Sign up or log into Locho account</p>
+              <p>Learn more about Loche accounts</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <main class="main">
+
+    <section id="hero" class="hero section dark-background">
+      <img src="assets/img/banner--2.jpeg" alt="" class="header-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-7 col-sm-8">
+            <h2>We bring you a curated collection of specialized brands</h2>
+            <p>Welcome to our Platform, the one-stop platform for all your beauty and wellness needs.</p>
+            <button class="log-btn Registered-btn">Registered Now</button>
+            <div class="row align-items-center">
+              <div class="col-4">
+                <img src="assets/img/clients/bellaluna-black-variation-png.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-4">
+                <img src="assets/img/clients/glossys-logo-black-variation.png" alt="" class="img-fluid">
+              </div>
+              <div class="col-4">
+                <h3 class="head-icon">Dental Implant</h3>
+                <!-- <img src="assets/img/clients/glossys-logo-black-variation.png" alt="" class="img-fluid"> -->
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Clients Section -->
+    <section id="clients" class="clients section light-background">
+
+      <div class="container" data-aos="zoom-in">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 5000
+                  },
+                  "slidesPerView": "auto",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  },
+                  "breakpoints": {
+                    "320": {
+                      "slidesPerView": 2,
+                      "spaceBetween": 40
+                    },
+                    "480": {
+                      "slidesPerView": 3,
+                      "spaceBetween": 60
+                    },
+                    "640": {
+                      "slidesPerView": 4,
+                      "spaceBetween": 80
+                    },
+                    "992": {
+                      "slidesPerView": 5,
+                      "spaceBetween": 90
+                    },
+                    "1200": {
+                      "slidesPerView": 6,
+                      "spaceBetween": 90
+                    }
+                  }
+                }
+              </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/bellaluna-black-variation-png.png" class="img-fluid"
+                alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/bio-ones (1).jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/DR-BLUE (1).jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/estilo.jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/glossys-logo-black-variation.png" class="img-fluid"
+                alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/lalachuu (1).jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/medicell-bio (1).jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/oseque (1).jpg" class="img-fluid" alt=""></div>
+            <div class="swiper-slide"><img src="assets/img/clients/toas (1).jpg" class="img-fluid" alt=""></div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Clients Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section about-bg">
+
+      <div class="container">
+        <div class=" align-items-xl-center gy-5">
+
+          <div class="content">
+
+            <h2>Uniting India & Korea Through Business and Culture.</h2>
+            <p>Loche India is leading the expansion of K-beauty's global market by securing overseas bases in various
+              regions such as the US, Southeast Asia, and Europe.</p>
+          </div>
+
+          <div class="row gy-4 icon-boxes">
+
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <div class="icon-box">
+                <i class="fa-solid fa-earth-americas"></i>
+                <h3>Worldwide Shipping</h3>
+                <p>Loche India connects global brands, offering diverse products and services across international
+                  markets.</p>
+              </div>
+            </div> <!-- End Icon Box -->
+
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <div class="icon-box">
+                <i class="fa-solid fa-hands-bound"></i>
+                <h3>Best Quality</h3>
+                <p>Ensures top-notch quality by connecting diverse businesses and leveraging global expertise for
+                  excellence.</p>
+              </div>
+            </div> <!-- End Icon Box -->
+
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <div class="icon-box">
+                <i class="fa-solid fa-tags"></i>
+                <h3>Best Offers</h3>
+                <p>Explore our best offers on a wide range of products, featuring exclusive deals and global
+                  selections.</p>
+              </div>
+            </div> <!-- End Icon Box -->
+
+            <div class="col-sm-6 col-md-6 col-lg-3">
+              <div class="icon-box">
+                <i class="fa-solid fa-lock"></i>
+                <h3>Secure Payments</h3>
+                <p>Secure Payments ensure safe, reliable transactions with advanced encryption for peace of mind.</p>
+              </div>
+            </div> <!-- End Icon Box -->
+
+          </div>
+
+
+        </div>
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Features Section -->
+    <!-- <section id="features" class="features section">
+      <div class="container section-title">
+        <h2>Your Ultimate Destination for Beauty & Wellness</h2>
+
+
+      </div>
+      <div class="container">
+       
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+
+          <div class="col-xl-6 col-lg-5 col-md-12 d-flex  flex-column">
+            <h3>Elevate your skincare routine with premium Korean toners and beauty essentials.</h3>
+            <h6 class="product-keys"><span>Hydrate & Prep for a Dewy Glow</span>
+              <p class="product-info">Instantly refreshes and hydrates with a Hyaluronic Acid
+                Complex and soothing Green Tea.
+                Preps skin for the next steps, leaving it soft and balanced.</p>
+              <h6 class="product-keys"><span>KEY WORD</span>
+                <li><span class="product-point">Dewy hydration.</span></li>
+                <li><span class="product-point">Soothes & calms.</span></li>
+                <li><span class="product-point">Preps for better absorption.</span></li>
+              </h6>
+              <p class="product-info">Kickstart your routine with our refreshing toner, enriched with antioxidant-rich
+                Camellia Sinensis Leaf Extract (Green Tea) to shield your skin from environmental
+                stressors while soothing irritation. Infused with a comprehensive Hyaluronic Acid
+                Complex, this toner delivers long-lasting moisture, enhancing your skin's natural
+                elasticity. Niacinamide brightens and strengthens your skin barrier, while Ceramide
+                NP locks in hydration for a smooth, supple complexion. The calming properties of
+                Centella Asiatica Extract and Sodium Guaiazulene Sulfonate make this toner
+                suitable for all skin types, ensuring comfort and balance in your daily regimen
+              </p>
+          </div>
+          <div class="col-xl-6 col-lg-7 col-md-12 d-flex align-items-center features-img-bg">
+            <img src="assets/img/0R6A8284.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+          <div class="col-xl-6 col-lg-7 col-md-12 d-flex align-items-center features-img-bg">
+            <img src="assets/img/bellaluna3.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-xl-6 col-lg-5 col-md-12 d-flex  flex-column">
+            <h3>Experience the magic of Korean cosmetics for a flawless look.
+            </h3>
+
+            <p class="product-info">Bellaluna is a cosmetic platform that brings together the best of Indian and Korean
+              beauty. It offers a curated selection of skincare, makeup, and beauty products inspired by the
+              traditions and innovations of both countries. Whether you're looking for the ancient wisdom of
+              Ayurveda or the cutting-edge advancements of K-beauty, Bellaluna provides high-quality products that
+              cater to diverse beauty needs.</p>
+            <h6 class="product-keys"><span>Why Choose Bellaluna?</span>
+              <li><span class="product-point">Authentic Products.</span></li>
+              <li><span class="product-point">Wide Range of Choices.</span></li>
+              <li><span class="product-point">Quality and Effectiveness.</span></li>
+            </h6>
+            <p class="product-info">Bellaluna ensures that all products are sourced from trusted brands in India and
+              Korea.
+              From traditional herbal remedies to modern skincare innovations, Bellaluna has something for everyone.
+              Each product is carefully selected to provide the best results without harmful chemicals.
+              By blending Ayurveda and K-beauty, Bellaluna promotes beauty that is both natural and scientifically
+              backed.
+
+            </p>
+
+
+
+
+          </div>
+        </div>
+
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+
+          <div class="col-xl-6 col-lg-5 col-md-12 d-flex  flex-column">
+            <h3>Dental Implant – Achieve the perfect smile with cutting-edge dental solutions.</h3>
+            <p class="product-info"> dental implant platform is a comprehensive digital solution that streamlines and
+              enhances the entire
+              dental implant process, from diagnosis and treatment planning to surgery and prosthetic restoration. It
+              integrates advanced
+              technologies such as 3D imaging, artificial intelligence (AI),
+              and cloud-based data management to improve accuracy, efficiency, and patient outcomes.</p>
+            <h6 class="product-keys"><span>Key Features of a Dental Implant Platform</span>
+              <li><span class="product-point">3D Treatment Planning.</span></li>
+              <li><span class="product-point">Digital Surgical Guides.</span></li>
+              <li><span class="product-point">AI-Assisted Diagnostics.</span></li>
+              <li><span class="product-point">CAD/CAM Integration.</span></li>
+              <li><span class="product-point">Cloud-Based Data Management.</span></li>
+            </h6>
+            <p>The platform provides detailed 3D visualizations of the patient’s oral structures, enabling precise
+              planning of implant placement.
+              This helps dentists analyze bone density, nerve positioning, and optimal implant angulation.
+              Many platforms generate customized surgical guides that ensure accurate and predictable implant placement,
+              minimizing errors and reducing surgery time.
+            </p>
+          </div>
+          <div class="col-xl-6 col-lg-7 col-md-12 d-flex align-items-center features-img-bg">
+            <img src="assets/img/Dental Implant.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+
+      </div>
+
+    </section> -->
+
+
+    <section id="product-information" class="product-inform light-background">  
+      <div class="container section-title">
+        <h2>Your Ultimate Destination for Beauty & Wellness</h2>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="product-info">
+              <img src="assets/img/0R6A8284.jpg" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="containt-text">
+                  <h3>Elevate your skincare routine with premium Korean toners and beauty essentials.</h3>
+                  <span class="product-heading">Hydrate &amp; Prep for a Dewy Glow</span>
+                  <p class="product-infonew">Instantly refreshes and hydrates with a Hyaluronic Acid
+                    Complex and soothing Green Tea.
+                    Preps skin for the next steps, leaving it soft and balanced.
+                  </p>
+                  <h6 class="product-ky"><span>KEY WORD</span>
+                    <li><span class="product-point">Dewy hydration.</span></li>
+                    <li><span class="product-point">Soothes &amp; calms.</span></li>
+                    <li><span class="product-point">Preps for better absorption.</span></li>
+                  </h6>
+                  <p class="product-info">Kickstart your routine with our refreshing toner, enriched with antioxidant-rich
+                    Camellia Sinensis Leaf Extract (Green Tea) to shield your skin from environmental
+                    stressors while soothing irritation. Infused with a comprehensive Hyaluronic Acid
+                    Complex, this toner delivers long-lasting moisture, enhancing your skin's natural
+                    elasticity. Niacinamide brightens and strengthens your skin barrier, while Ceramide
+                    NP locks in hydration for a smooth, supple complexion. The calming properties of
+                    Centella Asiatica Extract and Sodium Guaiazulene Sulfonate make this toner
+                    suitable for all skin types, ensuring comfort and balance in your daily regimen
+                  </p>
+                </div>
+              </div>
+              
+            </div>
+            <div class="product-name">
+              Glossys
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="product-info">
+              <img src="assets/img/bellaluna3.jpg" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="containt-text">
+                  <h3>Experience the magic of Korean cosmetics for a flawless look.</h3>
+                 
+                  <p class="product-infonew">Bellaluna is a cosmetic platform that brings together the best 
+                    of Indian and Korean beauty. It offers a curated selection of skincare, makeup, and beauty
+                     products inspired by the traditions and innovations of both countries. Whether you're 
+                     looking for the ancient wisdom of Ayurveda or the cutting-edge advancements of K-beauty,
+                      Bellaluna provides high-quality products that cater to diverse beauty needs.
+                  </p>
+                  <h6 class="product-ky"><span>Why Choose Bellaluna?</span>
+                    <li><span class="product-point">Authentic Products.</span></li>
+                    <li><span class="product-point">Wide Range of Choices.</span></li>
+                    <li><span class="product-point">Quality and Effectiveness.</span></li>
+                  </h6>
+                  <p class="product-info">Bellaluna ensures that all products are sourced from trusted brands 
+                    in India and Korea. From traditional herbal remedies to modern skincare innovations, 
+                    Bellaluna has something for everyone. Each product is carefully selected to provide the 
+                    best results without harmful chemicals. By blending Ayurveda and K-beauty, Bellaluna promotes
+                    beauty that is both natural and scientifically backed.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="product-name">
+              Bellaluna
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="product-info">
+              <img src="assets/img/Dental Implant.jpg" alt="Avatar" class="image">
+              <div class="overlay">
+                <div class="containt-text">
+                  <h3>Dental Implant – Achieve the perfect smile with cutting-edge dental solutions.</h3>
+                 
+                  <p class="product-infonew">Dental implant platform is a comprehensive digital solution 
+                    that streamlines and enhances the entire dental implant process, from diagnosis and 
+                    treatment planning to surgery and prosthetic restoration. It integrates advanced 
+                    technologies such as 3D imaging, artificial intelligence (AI), and cloud-based data
+                     management to improve accuracy, efficiency, and patient outcomes.
+                  </p>
+                  <h6 class="product-ky"><span>Key Features of a Dental Implant Platform.</span>
+                    <li><span class="product-point">3D Treatment Planning.</span></li>
+                    <li><span class="product-point">Digital Surgical Guides.</span></li>
+                    <li><span class="product-point">AI-Assisted Diagnostics.</span></li>
+                    <li><span class="product-point">CAD/CAM Integration.</span></li>
+                    <li><span class="product-point">Cloud-Based Data Management.</span></li>
+                  </h6>
+                  <p class="product-info">The platform provides detailed 3D visualizations of the patient’s 
+                    oral structures, enabling precise planning of implant placement. This helps dentists analyze
+                    bone density, nerve positioning, and optimal implant angulation. Many platforms generate 
+                    customized surgical guides that ensure accurate and predictable implant placement, minimizing 
+                    errors and reducing surgery time.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="product-name">
+              Dental Implant
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
+
+
+    <!-- Services Section -->
+    <section id="services" class="services section about-bg">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>What we do</h2>
+        <p>E-Commerce consulting, Brand Incubation, Regulatory & Compliances, HR Services, Network &Solutions,
+          Legal Services, Influencer Platform, General Trading.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6 ">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="fa-solid fa-cart-flatbed"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">E-Commerce consulting</a></h4>
+                <li class="description">Corporate Establishment.</li>
+                <li class="description">Land Acquisition / Factory.</li>
+                <li class="description">Inquiry.</li>
+
+              </div>
+            </div>
+          </div>
+          <!-- End Service Item -->
+
+          <div class="col-lg-6 ">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="fa-solid fa-users-gear"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Brand Incubation</a></h4>
+                <p class="description">We are committed to fostering innovation, driving growth, and creating value for
+                  both our clients and the broader market. </p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 ">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="fa-solid fa-money-bill-trend-up"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Investment & Funding</a></h4>
+                <p class="description">Our Investment & Funding services are tailored to provide the capital and
+                  resources required for your business to grow and succeed.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 ">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="fa-brands fa-squarespace"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Regulatory & Compliances</a>
+                </h4>
+                <li class="description">Government Licences</li>
+                <div class="row">
+                  <div class="col-6">
+                    <li class="description">BIS</li>
+                    <li class="description">WPC</li>
+                    <li class="description">EPR</li>
+                    <li class="description">CDSCO</li>
+                  </div>
+                  <div class="col-6">
+                    <li class="description">FSSAI</li>
+                    <li class="description">ICMR</li>
+                    <li class="description">DSIR</li>
+                    <li class="description">DGFT</li>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 ">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="fa-solid fa-user-gear"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">HR Services</a></h4>
+                <p class="description">Our HR services are tailored to meet the unique needs of businesses across
+                  various industries,
+                  ensuring that you have the right talent, strategies, and support to drive your company’s growth and
+                  success.</p>
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 ">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="fa-solid fa-globe"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Network & Solutions</a></h4>
+                <div class="row">
+                  <div class="col-6">
+                    <li class="description">Super Sourcing team (SST)</li>
+                    <li class="description">License Renewal</li>
+                    <li class="description">Testing Equipment</li>
+                  </div>
+                  <div class="col-6">
+                    <li class="description">Inclusion of new varieties</li>
+                    <li class="description">Onsite testing & training</li>
+                    <li class="description">Products Testing facilities</li>
+                    <li class="description">Annual Maintenance</li>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 ">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="fa-regular fa-address-book"></i></div>
+              <div>
+                <h4 class="title"><a href="services-details.html" class="stretched-link">Legal Services</a></h4>
+
+                <li class="description">Corporate Laws</li>
+                <li class="description">Inland legal services</li>
+
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-6 ">
+            <div class="service-item d-flex">
+              <div class="icon flex-shrink-0"><i class="fa-solid fa-chart-line"></i></div>
+              <div>
+                <h4 class="title"><a>Influencer Pletform</a></h4>
+
+                <h4 class="title"><a>General Trading</a></h4>
+
+              </div>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /Services Section -->
+
+    <!--Products  -->
+    <section id="features" class="features section">
+
+
+      <!-- Section Title -->
+      <div class="container-fluid section-title">
+        <h2>Shop the Loche Store and make Your beauty Enhance</h2>
+        <!-- <div class="col-md-12 banner-product">
+                <img src="assets/img/banner-2page.PNG" alt="" >
+              </div> -->
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="product">
+                <img src="assets/img/product-cream.png" alt="">
+              </div>
+              <div class="sec-1">
+                <div class="product-text">
+                  <p>Glossys Soothing Cream</p>
+                </div>
+                <div class="click-btn">
+                  <span><i class="fa-regular fa-circle-right"></i> Shop now</span>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-sm-4">
+              <div class="product">
+                <img src="assets/img/product-serum.png" alt="">
+              </div>
+              <div class="sec-1">
+                <div class="product-text">
+                  <p>Glossys Serum</p>
+                </div>
+                <div class="click-btn">
+                  <span><i class="fa-regular fa-circle-right"></i> Shop now</span>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-sm-4">
+              <div class="product">
+                <img src="assets/img/product-toner.png" alt="">
+              </div>
+              <div class="sec-1">
+                <div class="product-text">
+                  <p>Glossys Toner</p>
+                </div>
+                <div class="click-btn">
+                  <span><i class="fa-regular fa-circle-right"></i> Shop now</span>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div><!-- End Section Title -->
+
+    </section>
+    <!-- /End Products -->
+
+    <!-- brand logos -->
+    <!-- <div class="container section-title">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="add-logo-brand">
+              <div class="add-logo-brand1">
+                <h4> <img src="assets/img/clients/bellaluna-black-variation-png.png" alt=""></h4>
+                
+              </div>
+              <div class="add-logo-brand1">
+                <h4> <img src="assets/img/clients/glossys-logo-black-variation.png" class="glossys-icon" alt=""
+                    data-aos="fade-in"></h4>
+              </div>
+              <div class="add-logo-brand2">
+                <h4 class="brand-name2">Dental Implant</h4>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="add-brand-text-heading">
+              <h3>Dewy Glow Hyaluronic Acid Collection</h3>
+              <p>Get Experience Glossys Products Glow with Confidence, Care with Quality.</p>
+              <h6>Starting at ₹ 1200.99</h6>
+              <button class="log-btn signin-btn">Shop All
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+    <section id="gallery" class="gallery section">
+
+      <!-- Section Title -->
+      <div class="container gallary-heading">
+        <div class="section-title">
+          <h2>Gallery
+            <!-- <p>Where Indian Tradition Meets Korean Innovation."</p> -->
+          </h2>
+        </div>
+        <div>
+          <button class="log-btn gallary-btn">See All</button>
+        </div>
+
+      </div><!-- End Section Title -->
+      <div class="container">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 10
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 10
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 10
+                },
+                "1200": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide team-info">
+              <img src="assets/img/masonry-portfolio/meeting--2.jpeg" class="img-fluid" alt="">
+            </div>
+            <div class="swiper-slide team-info">
+              <div class="swiper-slide team-info">
+                <img src="assets/img/masonry-portfolio/event--1.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide team-info">
+              <div class="swiper-slide team-info">
+                <img src="assets/img/masonry-portfolio/product--1.jpeg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide team-info">
+              <div class="swiper-slide team-info">
+                <img src="assets/img/masonry-portfolio/event-2.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide team-info">
+              <div class="swiper-slide team-info">
+                <img src="assets/img/masonry-portfolio/product--2.jpeg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide team-info">
+              <div class="swiper-slide team-info">
+                <img src="assets/img/masonry-portfolio/meeting--3.jpeg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide team-info">
+              <div class="swiper-slide team-info">
+                <img src="assets/img/masonry-portfolio/event-5.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide team-info">
+              <div class="swiper-slide team-info">
+                <img src="assets/img/masonry-portfolio/event-4.jpg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide team-info">
+              <div class="swiper-slide team-info">
+                <img src="assets/img/masonry-portfolio/product--5.jpeg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide team-info">
+              <div class="swiper-slide team-info">
+                <img src="assets/img/masonry-portfolio/product--6.jpeg" class="img-fluid" alt="">
+              </div>
+            </div>
+            <div class="swiper-slide team-info">
+              <div class="swiper-slide team-info">
+                <img src="assets/img/masonry-portfolio/product--4.jpeg" class="img-fluid" alt="">
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Team Section -->
+    <section id="team" class="team section about-bg">
+  
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4 col-md-4 member">
+            <div class="member-img">
+              <img src="assets/img/team/billy-kim-1.jpg" class="img-fluid" alt="">
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>KIM DOOHWAN (Billy)</h4>
+              <span>Founder / CEO</span>
+
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-4 member">
+            <div class="member-img">
+              <img src="assets/img/team/Dheeraj-Professional.jpg" class="img-fluid" alt="">
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Dheeraj Kumar</h4>
+              <span>Co-Founder/CFO/MD</span>
+
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-4 member">
+            <div class="member-img">
+              <img src="assets/img/team/Ankit.jpg" class="img-fluid" alt="">
+              <div class="social">
+                <a href="#"><i class="bi bi-twitter"></i></a>
+                <a href="#"><i class="bi bi-facebook"></i></a>
+                <a href="#"><i class="bi bi-instagram"></i></a>
+                <a href="#"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+            <div class="member-info text-center">
+              <h4>Ankit Khanna</h4>
+              <span>Vice President</span>
+
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+      </div>
+
+    </section>
+    <!-- /Team Section -->
+
+    <!-- team-member -->
+    <section id="clients" class="clients section about-bg">
+      <div class="container section-title">
+        <h2>Our Team</h2>
+      </div>
+      <div class="container">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+            {
+              "loop": true,
+              "speed": 600,
+              "autoplay": {
+                "delay": 5000
+              },
+              "slidesPerView": "auto",
+              "pagination": {
+                "el": ".swiper-pagination",
+                "type": "bullets",
+                "clickable": true
+              },
+              "breakpoints": {
+                "320": {
+                  "slidesPerView": 2,
+                  "spaceBetween": 40
+                },
+                "480": {
+                  "slidesPerView": 3,
+                  "spaceBetween": 10
+                },
+                "640": {
+                  "slidesPerView": 4,
+                  "spaceBetween": 10
+                },
+                "992": {
+                  "slidesPerView": 5,
+                  "spaceBetween": 10
+                },
+                "1200": {
+                  "slidesPerView": 6,
+                  "spaceBetween": 20
+                }
+              }
+            }
+          </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide team-info">
+              <img src="assets/img/team/Himani Image-1.jpg" class="img-fluid team-img" alt="">
+              <p class="team-name">Himani</p>
+              <p class="team-post">Graphics Designer</p>
+            </div>
+            <div class="swiper-slide team-info">
+              <img src="assets/img/team/rekha.jpeg" class="img-fluid team-img" alt="">
+              <p class="team-name">Rekha Singh</p>
+              <p class="team-post">Fullstack Developer </p>
+            </div>
+            <div class="swiper-slide team-info">
+              <img src="assets/img/team/Abhishek.jpeg" class="img-fluid team-img" alt="">
+              <p class="team-name">Abhishek</p>
+              <p class="team-post">Web Designer</p>
+            </div>
+            <div class="swiper-slide team-info">
+              <img src="assets/img/team/Shubham-1.jpg" class="img-fluid team-img" alt="">
+              <p class="team-name">Shubham</p>
+              <p class="team-post">Web Developer</p>
+            </div>
+            <div class="swiper-slide team-info">
+              <img src="assets/img/team/Vicky-1.jpg" class="img-fluid team-img" alt="">
+              <p class="team-name">Vicky</p>
+              <p class="team-post">Marketing Development</p>
+            </div>
+            <div class="swiper-slide team-info">
+              <img src="assets/img/team/Shalvi-1.jpg" class="img-fluid team-img" alt="">
+              <p class="team-name">Ms. Shalvi</p>
+              <p class="team-post">Corporate Lawyer</p>
+            </div>
+            <div class="swiper-slide team-info">
+              <img src="assets/img/team/hyejungpark-1.jpg" class="img-fluid team-img" alt="">
+              <p class="team-name">Mrs Park</p>
+              <p class="team-post">Cosmetic beautician</p>
+            </div>
+            <div class="swiper-slide team-info">
+              <img src="assets/img/team/Bowon Hwang1.jpg" class="img-fluid team-img" alt="">
+              <p class="team-name">Mr. Bhoowan</p>
+              <p class="team-post">Business Analyst</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /team-member-->
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <div class="container">
+
+        <div>
+          <div class="content">
+            <h3><span>Frequently Asked Questions</span></h3>
+          </div>
+        </div>
+        <div>
+          <div class="faq-container">
+            <div class="faq-item faq-active">
+              <h3><span class="num">1.</span> <span>Exceptional Quality Through Dedication.</span></h3>
+              <div class="faq-content">
+                <p>We are committed to crafting exceptional products using the highest quality
+                  ingredients, ensuring your skin receives the best care possible.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3><span class="num">2.</span> <span>Customer-Centric Service.</span></h3>
+              <div class="faq-content">
+                <p>We prioritize trust and communication, listening to our customers to provide
+                  tailored solutions that cater to individual needs</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3><span class="num">3.</span> <span>Expert, Personalized Solutions.</span></h3>
+              <div class="faq-content">
+                <p>Understanding that every skin is unique, we offer expert advice and personalized
+                  consultations tailored to specific skin types and concerns.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3><span class="num">4.</span> <span>Reliability, Safety, and Innovation.</span></h3>
+              <div class="faq-content">
+                <p>Our commitment to delivering reliable, safe, and scientifically advanced skincare
+                  products ensures results you can trust. Fringilla phasellus faucibus scelerisque eleifend donec
+                  pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa
+                  tincidunt dui.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3><span class="num">5.</span> <span>Vegan and Cruelty-Free Beauty.</span></h3>
+              <div class="faq-content">
+                <p>We proudly stand for vegan beauty and oppose animal testing, ensuring our
+                  ethical practices harm neither animals nor the environment.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+            <div class="faq-item">
+              <h3><span class="num">6.</span> <span>Beauty, Health, and Happiness.</span></h3>
+              <div class="faq-content">
+                <p>More than a skincare brand, we guide customers on maintaining youthfulness and
+                  radiance, intertwining beauty with a happy, healthy lifestyle.</p>
+              </div>
+              <i class="faq-toggle bi bi-chevron-right"></i>
+            </div><!-- End Faq item-->
+
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+      <!-- Section Title -->
+      <div class="container section-title">
+        <h2>Contact Us</h2>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-6">
+
+            <div class="row gy-4">
+              <div class="col-md-6">
+                <div class="info-item">
+                  <i class="bi bi-geo-alt"></i>
+                  <h3>Address</h3>
+                  <p>Cyber Hub,Gurugram, </p>
+                  <p>Haryana 122002 India</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item">
+                  <i class="bi bi-telephone"></i>
+                  <h3>Call Us</h3>
+                  <p>+91 98101 40839</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item">
+                  <i class="bi bi-envelope"></i>
+                  <h3>Email Us</h3>
+                  <p>hello@loche.in</p>
+                </div>
+              </div><!-- End Info Item -->
+
+              <div class="col-md-6">
+                <div class="info-item">
+                  <i class="bi bi-clock"></i>
+                  <h3>Open Hours</h3>
+                  <p>Monday - Saturday</p>
+                  <p>9:30AM - 07:00PM</p>
+                </div>
+              </div><!-- End Info Item -->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form method="post" class="php-email-form">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
+                </div>
+
+                <div class="col-md-6 ">
+                  <input type="email" class="form-control" name="email" placeholder="Your Email" required="">
+                </div>
+
+                <div class="col-12">
+                  <input type="text" class="form-control" name="subject" placeholder="Subject" required="">
+                </div>
+
+                <div class="col-12">
+                  <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
+                </div>
+
+                <div class="col-12 text-center">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+
+                  <button type="submit">Send Message</button>
+                </div>
+
+              </div>
+            </form>
+          </div><!-- End Contact Form -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-4 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <!-- <span class="sitename">Append</span> -->
+            <img src="assets/img/Loche-India-Logo.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236">
+          </a>
+          <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p> -->
+
+        </div>
+
+        <div class="col-lg-4 col-md-4 footer-links">
+          <h4>Registered Office 'India'</h4>
+          <ul>
+            <li><a>No 82 2nd Floor, Srestha, 4th Avenue Ashok Nagar.
+                Chennai - 600083 Tamil Nadu, India.</a></li>
+          </ul>
+          <h4 class="mt-4">Corporate Office 'India'</h4>
+          <ul>
+            <li><a> 8th Floor, Building No. 8-C, DLF Cyber Hub, Phase-II,
+                Gurugram, Haryana 122002 India</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-4 footer-contact text-center text-md-start">
+          <h4>Corporate Office 'KOREA'</h4>
+          <p>6FL, P12,602, Yeongdong-daero, Gangnam-gu, Seoul, Republic of Korea</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+91 98101 40839</span></p>
+          <p><strong>Email:</strong> <span>hello@loche.in</span></p>
+          <h4 class="mt-3">Follow Us:</h4>
+          <div class="social-links d-flex">
+            <a href=""><i class="bi bi-twitter"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Powered by</span> <strong class="sitename">Loche India Private Limited</strong> <span>All Rights
+          Reserved</span></p>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
